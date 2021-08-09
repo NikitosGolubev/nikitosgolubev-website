@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useHead } from '@vueuse/head'
+import { APP_THEME } from '~/features/app-theme'
 
 // https://github.com/vueuse/head
 // you can use this to manipulate the document head in any components,
@@ -10,8 +11,31 @@ useHead({
     { name: 'description', content: 'Opinionated Vite Starter Template' },
   ],
 })
+
 </script>
 
 <template>
-  <router-view />
+  <div :class="APP_THEME">
+    <div class="app">
+      <router-view />
+    </div>
+  </div>
 </template>
+
+<style lang="scss">
+  @import '~/assets/scss/global.scss';
+</style>
+
+<style scoped lang="scss">
+  .app {
+    min-height: 100vh;
+  }
+</style>
+
+<style scoped lang="scss">
+  .dark {
+    .app {
+      background: var(--dark-color-1);
+    }
+  }
+</style>

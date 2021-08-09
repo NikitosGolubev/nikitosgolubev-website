@@ -17,6 +17,7 @@ specifiers:
   https-localhost: ^4.6.5
   markdown-it-link-attributes: ^3.0.0
   markdown-it-prism: ^2.1.8
+  normalize.css: ^8.0.1
   nprogress: ^0.2.0
   pnpm: ^6.11.5
   prism-theme-vars: ^0.2.2
@@ -41,6 +42,7 @@ specifiers:
 dependencies:
   '@vueuse/core': 5.2.0_vue@3.1.5
   '@vueuse/head': 0.6.0_vue@3.1.5
+  normalize.css: 8.0.1
   nprogress: 0.2.0
   prism-theme-vars: 0.2.2
   vue: 3.1.5
@@ -4385,6 +4387,10 @@ packages:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /normalize.css/8.0.1:
+    resolution: {integrity: sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==}
+    dev: false
 
   /nprogress/0.2.0:
     resolution: {integrity: sha1-y480xTIT2JVyP8urkH6UIq28r7E=}
