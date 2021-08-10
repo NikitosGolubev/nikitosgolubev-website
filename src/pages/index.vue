@@ -3,10 +3,14 @@
 
 <template>
   <div>
-    Test
+    <HomeWelcomeScreen />
   </div>
 </template>
 
 <style scoped lang="scss">
-
 </style>
+
+<route lang="yaml">
+meta:
+  layout: home
+</route>

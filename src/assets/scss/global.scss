@@ -1,1 +1,13 @@
-@import 'colors';
+@import 'foundation/colors';
+@import 'foundation/theme-colors';
+@import 'foundation/fonts';
+@import 'foundation/typography';
+
+::selection {
+  background: var(--primary-color);
+}
+
+body {
+  font-family: var(--main-font-regular), sans-serif;
+  font-size: var(--base-font-size);
+}

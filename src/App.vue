@@ -29,13 +29,7 @@ useHead({
 <style scoped lang="scss">
   .app {
     min-height: 100vh;
-  }
-</style>
-
-<style scoped lang="scss">
-  .dark {
-    .app {
-      background: var(--dark-color-1);
-    }
+    background: var(--app-bg-color);
+    color: var(--app-text-color);
   }
 </style>

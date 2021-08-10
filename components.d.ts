@@ -12,7 +12,12 @@ declare module 'vue' {
     CarbonSun: typeof import('virtual:vite-icons/carbon/sun')['default']
     CarbonWarning: typeof import('virtual:vite-icons/carbon/warning')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
+    HomeWelcomeScreen: typeof import('./src/components/home/HomeWelcomeScreen/HomeWelcomeScreen.vue')['default']
     README: typeof import('./src/components/README.md')['default']
+    ScrollBottomButton: typeof import('./src/components/home/HomeWelcomeScreen/components/ScrollBottomButton.vue')['default']
+    SocialsBar: typeof import('./src/components/SocialsBar/SocialsBar.vue')['default']
+    TheNavbar: typeof import('./src/components/TheNavbar/TheNavbar.vue')['default']
+    UiBurger: typeof import('./src/components/ui/UiBurger/UiBurger.vue')['default']
   }
 }
 
