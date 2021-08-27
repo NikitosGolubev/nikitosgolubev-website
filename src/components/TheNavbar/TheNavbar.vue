@@ -54,7 +54,7 @@ const isNavbarFlat = computed(() => currentScrollTopPx.value > 0)
     z-index: 100;
     transition: all .3s ease;
     box-sizing: border-box;
-    padding: 0 110px;
+    padding: 0 var(--app-horizontal-offset);
 
     display: flex;
     align-items: center;

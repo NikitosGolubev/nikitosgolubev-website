@@ -21,7 +21,7 @@ const styleVariables = computed((): StylingVariablesMap => ({
       </div>
 
       <div class="brand-skills">
-        Front-end Developer | Amature Designer & Writer
+        Front-end Developer | Blockchain & Design enthusiast
       </div>
     </div>
 

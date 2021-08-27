@@ -4,6 +4,7 @@
 <template>
   <div>
     <HomeWelcomeScreen />
+    <HomeDeveloperPresentation />
   </div>
 </template>
 

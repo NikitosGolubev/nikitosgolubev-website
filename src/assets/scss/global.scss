@@ -2,6 +2,8 @@
 @import 'foundation/theme-colors';
 @import 'foundation/fonts';
 @import 'foundation/typography';
+@import 'foundation/general';
+@import 'foundation/utility-classes';
 
 ::selection {
   background: var(--primary-color);
@@ -10,4 +12,9 @@
 body {
   font-family: var(--main-font-regular), sans-serif;
   font-size: var(--base-font-size);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
