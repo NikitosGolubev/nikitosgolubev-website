@@ -45,7 +45,7 @@ import ME_DEVELOPER_IMG from '~/assets/images/photos/me-in-robe.png'
 
 <style lang="scss" scoped>
   .developer-block {
-    padding: 110px var(--app-horizontal-offset);
+    padding: 0 var(--app-horizontal-offset);
     display: flex;
     align-items: center;
     justify-content: space-between;

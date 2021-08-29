@@ -2,3 +2,9 @@
   font-family: var(--main-font-extralight);
   line-height: 1.8;
 }
+
+.dark {
+  .highlight {
+    background: rgba(#f00, 0.1);
+  }
+}

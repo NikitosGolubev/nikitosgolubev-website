@@ -6,6 +6,7 @@ import { setupLayouts } from 'virtual:generated-layouts'
 import App from './App.vue'
 
 import 'normalize.css'
+import '@glidejs/glide/dist/css/glide.core.min.css'
 
 const routes = setupLayouts(generatedRoutes)
 
